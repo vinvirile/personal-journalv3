@@ -35,10 +35,12 @@ const SUGGESTED_TAGS = [
   { tag: "idea", emoji: "💡" },
   { tag: "question", emoji: "❓" },
   { tag: "positivity", emoji: "☀️" },
+  { tag: "goal", emoji: "🎯" },
+  { tag: "Mugshots", emoji: "🍔" },
 ] as const;
 
 const SUGGESTED_TAG_SET = new Set<string>(
-  SUGGESTED_TAGS.map((item) => item.tag),
+  SUGGESTED_TAGS.map((item) => item.tag.toLowerCase()),
 );
 
 type EntryEditorProps = {
@@ -405,7 +407,7 @@ export function EntryEditor({
             >
               {SUGGESTED_TAGS.map(({ tag, emoji }) => {
                 const selected = tags.some(
-                  (item) => item.toLowerCase() === tag,
+                  (item) => item.toLowerCase() === tag.toLowerCase(),
                 );
                 return (
                   <button

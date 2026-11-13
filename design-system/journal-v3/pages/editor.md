@@ -38,9 +38,10 @@
 - Switching entries, locking, and creating with unsaved changes goes through a
   confirmation dialog.
 - Suggested tag buttons (🧐 serious, 🗑️ dump, 😤 vent, 💡 idea, ❓ question,
-  ☀️ positivity) are always visible in the tag section. Emoji are decorative
-  and hidden from assistive tech. Selected buttons use filled primary with a
-  check and remain fully opaque; inactive buttons show the emoji and label.
+  ☀️ positivity, 🎯 goal, 🍔 Mugshots) are always visible in the tag section.
+  Emoji are decorative and hidden from assistive tech. Selected buttons use
+  filled primary with a check and remain fully opaque; inactive buttons show
+  the emoji and label. Matching is case-insensitive.
 - Custom tag chips add on Enter/comma/blur; Backspace on an empty field removes
   the last tag.
 - All controls ≥44×44px; textareas keep a visible focus ring.

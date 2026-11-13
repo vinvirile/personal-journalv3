@@ -37,7 +37,8 @@ Generated with the `ui-ux-pro-max` skill (`design-system/journal-v3/MASTER.md`):
 - Editor with autosizing title/body, tag chips, word count, reading time,
   manual save, `⌘S` / `Ctrl+S`, and `⌘N` / `Ctrl+N`.
 - Persistent suggested-tag buttons (🧐 serious, 🗑️ dump, 😤 vent, 💡 idea,
-  ❓ question, ☀️ positivity) that add/remove tags in one click.
+  ❓ question, ☀️ positivity, 🎯 goal, 🍔 Mugshots) that add/remove tags in
+  one click.
 - Delete confirmation and unsaved-change guards.
 - AI title and tag suggestions through the server-only DeepSeek API
   (`deepseek-flash`, DeepSeek-V4.1-Flash).
