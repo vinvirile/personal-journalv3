@@ -38,7 +38,8 @@
 - Switching entries, locking, and creating with unsaved changes goes through a
   confirmation dialog.
 - Suggested tag buttons (🧐 serious, 🗑️ dump, 😤 vent, 💡 idea, ❓ question,
-  ☀️ positivity, 🎯 goal, 🍔 Mugshots) are always visible in the tag section.
+  ☀️ positivity, 🎯 goal, 🍔 Mugshots, 🌙 dream, 💬 quote) are always visible
+  in the tag section.
   Emoji are decorative and hidden from assistive tech. Selected buttons use
   filled primary with a check and remain fully opaque; inactive buttons show
   the emoji and label. Matching is case-insensitive.

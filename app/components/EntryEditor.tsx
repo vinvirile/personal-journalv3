@@ -37,6 +37,8 @@ const SUGGESTED_TAGS = [
   { tag: "positivity", emoji: "☀️" },
   { tag: "goal", emoji: "🎯" },
   { tag: "Mugshots", emoji: "🍔" },
+  { tag: "dream", emoji: "🌙" },
+  { tag: "quote", emoji: "💬" },
 ] as const;
 
 const SUGGESTED_TAG_SET = new Set<string>(
